@@ -3,7 +3,7 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-The results must comply with the format provided by the competition organizer, i.e. ['sample_submission.csv'](.sample_submission.csv), in which the predictions are sorted ascendingly. Moreover, it is not allowed to have any value below zero so that you could substitute such a negative value with zero.
+The results must comply with the format provided by the competition organizer, i.e. ['sample_submission.csv'](./sample_submission.csv), in which the predictions are sorted ascendingly. Moreover, it is not allowed to have any value below zero so that you could substitute such a negative value with zero.
 
 ### What was the top ranked model that performed?
 Weighted Ensemble L3 is the best model so far, in default, new features, and HPO strategy.
@@ -41,11 +41,11 @@ Engineering your dataset is much worth your time and effort rather than doing hy
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](.model_train_score.png)
+![model_train_score.png](./model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](.model_test_score.png)
+![model_test_score.png](./model_test_score.png)
 
 ## Summary
 This first project of [Udacity's AWS Machine Learning Engineer](https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189), aiming to solve [bike-sharing-demand competition](https://www.kaggle.com/competitions/bike-sharing-demand), has been carried out. The [AutoGluon](https://auto.gluon.ai/) AutoML is used to develop base models. As the provided dataset has been clean, it is unnecessary to perform data cleansing. Instead, adjusting column data types is the one implemented.
