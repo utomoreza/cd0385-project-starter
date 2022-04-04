@@ -3,7 +3,7 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-The results must comply with the format provided by the competition organizer, i.e. ['sample_submission.csv'](./sampleSubmission.csv), in which the predictions are sorted ascendingly. Moreover, it is not allowed to have any value below zero so that you could substitute such a negative value with zero.
+The results must comply with the format provided by the competition organizer, i.e. ['sampleSubmission.csv'](./sampleSubmission.csv), in which the predictions are sorted ascendingly. Moreover, it is not allowed to have any value below zero so that you could substitute such a negative value with zero.
 
 ### What was the top ranked model that performed?
 Weighted Ensemble L3 is the best model so far, in default, new features, and HPO strategy.
