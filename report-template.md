@@ -41,11 +41,11 @@ Engineering your dataset is much worth your time and effort rather than doing hy
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](.model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](.model_test_score.png)
 
 ## Summary
 This first project of [Udacity's AWS Machine Learning Engineer](https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189), aiming to solve [bike-sharing-demand competition](https://www.kaggle.com/competitions/bike-sharing-demand), has been carried out. The [AutoGluon](https://auto.gluon.ai/) AutoML is used to develop base models. As the provided dataset has been clean, it is unnecessary to perform data cleansing. Instead, adjusting column data types is the one implemented.
